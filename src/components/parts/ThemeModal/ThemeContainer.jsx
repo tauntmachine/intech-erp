@@ -57,7 +57,7 @@ const ThemeContainer = ({ handleClickOutside }) => {
         >
           <BrighterMode2 onClick={() => themeClick(Constants.mainTheme)}>
             <Circle color={"#2E90FA"}></Circle>
-            <Name2>Octate</Name2>
+            <Name2>Primary</Name2>
           </BrighterMode2>
           <BrighterMode2 onClick={() => themeClick(Constants.blueTheme)}>
             <Circle color={"#1849a9"}></Circle>

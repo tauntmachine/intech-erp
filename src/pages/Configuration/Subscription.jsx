@@ -297,8 +297,8 @@ const Line = styled.div`
 `;
 
 const SectionTable = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 `;
 const Subscription = () => {
   const [internalNotesData, setInternalNotesData] = useState([]);
@@ -420,7 +420,7 @@ const Subscription = () => {
 
           <Para>
             Experience a 30-day complimentary trial to explore the full range of
-            Octate modules and functionalities.
+            Intech ERP modules and functionalities.
           </Para>
           <Payment>
             <Cash>
@@ -517,7 +517,7 @@ const Subscription = () => {
           <Line />
         </Section>
       </Details>
-      
+
       <Sec4>
         <CompInfo>
           <Wrap3>
@@ -535,14 +535,14 @@ const Subscription = () => {
         <Line2 />
         <Title4>BILLING CYCLE</Title4>
         <ParaN>
-        The billing cycle defines the period for which your subscription charges
-        are applied, typically on a monthly or annual basis. Charges will be
-        automatically processed at the end of each cycle, and you will receive
-        notifications regarding each transaction. Your billing history on below
-        table.
-      </ParaN>
+          The billing cycle defines the period for which your subscription
+          charges are applied, typically on a monthly or annual basis. Charges
+          will be automatically processed at the end of each cycle, and you will
+          receive notifications regarding each transaction. Your billing history
+          on below table.
+        </ParaN>
       </Sec4>
-      
+
       <Details>
         <Section>
           <Section2>
@@ -560,8 +560,6 @@ const Subscription = () => {
         </Section>
       </Details>
 
-   
-      
       <HeadlessTable2
         columns={internalNotesColumns}
         data={internalNotesData}
@@ -572,7 +570,7 @@ const Subscription = () => {
         showSimpleText={true}
         SimpleText={"BILLING HISTORY"}
       />
-     
+
       <CompInfo>
         <Wrap3>
           <TitleOfSection title={"PAYMENT METHOD"} />
@@ -614,9 +612,7 @@ const Subscription = () => {
           ></Span2>
         </Wrap2>
         <BaseCurr>
-        <Title5>
-          Enable Auto Renew
-          </Title5>
+          <Title5>Enable Auto Renew</Title5>
           <Subtext2>
             If enabled, this option will automatically renew your product
             subscription on a monthly basis. Should the plan expire, your

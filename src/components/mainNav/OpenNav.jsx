@@ -33,7 +33,7 @@ const OpenNav = ({
 }) => {
   const themeKeys = useSelector((state) => state.localization.themeKeys);
   const keys = useSelector((state) => state.localization.keys);
-  const tagLine = "Dream Catchers Technologies";
+  const tagLine = "Enterprise Resource Planner";
   const colorList = [
     themeKeys.icFinance,
     themeKeys.icOrder2Cash,
